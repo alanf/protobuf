@@ -71,7 +71,7 @@ typedef int32 Atomic32;
 // http://code.google.com/p/nativeclient/issues/detail?id=1162
 typedef int64 Atomic64;
 #else
-typedef intptr_t Atomic64;
+typedef int64_t Atomic64;
 #endif
 #endif
 
