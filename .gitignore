@@ -1,0 +1,15 @@
+.DS_STORE
+Makefile
+config.*
+configure
+depcomp
+gtest/*
+src/.deps
+missing
+*.pc
+Makefile.in
+stamp-h1
+*.m4
+ltmain.sh
+libtool
+install-sh
