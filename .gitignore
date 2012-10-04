@@ -1,6 +1,7 @@
 .DS_STORE
 Makefile
 config.*
+!xcodeprojects/config.h
 configure
 depcomp
 gtest/*
