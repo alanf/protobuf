@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271204CA161D40D100DFF028 /* extension_set.cc in Sources */ = {isa = PBXBuildFile; fileRef = 275728BD16057B7200E07096 /* extension_set.cc */; };
+		271204CC161D40F600DFF028 /* dynamic_message.cc in Sources */ = {isa = PBXBuildFile; fileRef = 275728BA16057B7200E07096 /* dynamic_message.cc */; };
 		275727CD16057B2000E07096 /* libprotobuflite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 275727BF16057A1D00E07096 /* libprotobuflite.a */; };
 		2757294116057C0600E07096 /* zero_copy_stream_impl_lite.cc in Sources */ = {isa = PBXBuildFile; fileRef = 275728D916057B7200E07096 /* zero_copy_stream_impl_lite.cc */; };
 		2757294316057C0600E07096 /* message_lite.cc in Sources */ = {isa = PBXBuildFile; fileRef = 275728DF16057B7200E07096 /* message_lite.cc */; };
@@ -643,6 +645,7 @@
 				2757298D16057F2800E07096 /* zero_copy_stream_impl.cc in Sources */,
 				2757298F16057F3500E07096 /* importer.cc in Sources */,
 				2757299116057F3500E07096 /* parser.cc in Sources */,
+				271204CC161D40F600DFF028 /* dynamic_message.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,6 +664,7 @@
 				2757296A16057E4600E07096 /* repeated_field.cc in Sources */,
 				2757296C16057E5C00E07096 /* coded_stream.cc in Sources */,
 				2757297016057E8300E07096 /* zero_copy_stream.cc in Sources */,
+				271204CA161D40D100DFF028 /* extension_set.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
